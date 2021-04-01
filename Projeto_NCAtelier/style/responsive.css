@@ -1,18 +1,40 @@
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
     header .container{
         display: flex;
         flex-direction: column;
     }
 
-    .botao{
+    .botao {
         margin-top: 5px;
         width: 190px;
         height: 60px;
     }
-
 }
 
-@media screen and (min-width:1000px){
+@media screen and (max-width: 1186px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 566px) {
+    h2 {
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 82px;
+        height: 100px;
+    }
+}
+
+@media screen and (min-width:1000px) {
     .descricao{
         width: 50%;
     }
